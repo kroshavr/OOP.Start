@@ -78,7 +78,7 @@ public class Car {
     @Override
     public String toString() {
         return getBrand() + " " + getModel() + ", объем двигателя - " +
-                getEngineVolume() + "л, цвет кузова - " + getColor() +
+                getEngineVolume() + "л., цвет кузова - " + getColor() +
                 ", год выпуска - " + getYear() + ", страна-производитель - " + getCountry();
     }
 }
