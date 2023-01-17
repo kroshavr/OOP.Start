@@ -15,8 +15,7 @@ public class Main {
         System.out.println(car3.toString());
         System.out.println(car4.toString());
         System.out.println(car5.toString());
-        int month;
-        car1.choiceOfTires(12);
+        car1.choiceOfTires(11);
         System.out.println(car1);
         System.out.println(key1);
     }

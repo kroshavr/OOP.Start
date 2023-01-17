@@ -22,8 +22,8 @@ public class Car {
 
         @Override
         public String toString() {
-            return "Удаленный запуск двигателя - " + remoteEngineStart +
-                    ", бесключевой доступ - " + keylessAccess;
+            return "Удаленный запуск двигателя - " + (remoteEngineStart ? "есть" : "нет") +
+                    ", бесключевой доступ - " + (keylessAccess ? "есть" : "нет");
         }
     }
 
