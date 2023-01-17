@@ -1,19 +1,19 @@
 public class Car {
-    final private String brand;
-    final private String model;
+    private final  String brand;
+    private final String model;
     private double engineVolume;
     private String color;
-    final private int year;
-    final private String country;
+    private final int year;
+    private final String country;
     private String transmission;
-    final private String carBody;
+    private final String carBody;
     private String numberOfTheCar;
-    final private int numberOfSeats;
+    private final int numberOfSeats;
     private String tires;
 
     class Key {
-        final private boolean remoteEngineStart;
-        final private boolean keylessAccess;
+        private final boolean remoteEngineStart;
+        private final boolean keylessAccess;
 
         public Key (boolean remoteEngineStart, boolean keylessAccess) {
             this.remoteEngineStart = remoteEngineStart;
